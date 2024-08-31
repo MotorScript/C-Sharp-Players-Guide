@@ -1,0 +1,4 @@
+1. Value, name, type
+2. True
+3. No
+4. answer, value1, delete_me, PI

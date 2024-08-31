@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KingdomPoints", "KingdomPoints.csproj", "{EAF3BAE9-52D2-4BD2-A67C-12C5520A3DCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAF3BAE9-52D2-4BD2-A67C-12C5520A3DCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF3BAE9-52D2-4BD2-A67C-12C5520A3DCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF3BAE9-52D2-4BD2-A67C-12C5520A3DCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF3BAE9-52D2-4BD2-A67C-12C5520A3DCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

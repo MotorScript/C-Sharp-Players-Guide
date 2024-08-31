@@ -1,0 +1,15 @@
+/Users/lsmith/Documents/C#PlayersGuide/ChocolateEggs/bin/Debug/net6.0/ChocolateEggs
+/Users/lsmith/Documents/C#PlayersGuide/ChocolateEggs/bin/Debug/net6.0/ChocolateEggs.deps.json
+/Users/lsmith/Documents/C#PlayersGuide/ChocolateEggs/bin/Debug/net6.0/ChocolateEggs.runtimeconfig.json
+/Users/lsmith/Documents/C#PlayersGuide/ChocolateEggs/bin/Debug/net6.0/ChocolateEggs.dll
+/Users/lsmith/Documents/C#PlayersGuide/ChocolateEggs/bin/Debug/net6.0/ChocolateEggs.pdb
+/Users/lsmith/Documents/C#PlayersGuide/ChocolateEggs/obj/Debug/net6.0/ChocolateEggs.csproj.AssemblyReference.cache
+/Users/lsmith/Documents/C#PlayersGuide/ChocolateEggs/obj/Debug/net6.0/ChocolateEggs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lsmith/Documents/C#PlayersGuide/ChocolateEggs/obj/Debug/net6.0/ChocolateEggs.AssemblyInfoInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/ChocolateEggs/obj/Debug/net6.0/ChocolateEggs.AssemblyInfo.cs
+/Users/lsmith/Documents/C#PlayersGuide/ChocolateEggs/obj/Debug/net6.0/ChocolateEggs.csproj.CoreCompileInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/ChocolateEggs/obj/Debug/net6.0/ChocolateEggs.dll
+/Users/lsmith/Documents/C#PlayersGuide/ChocolateEggs/obj/Debug/net6.0/refint/ChocolateEggs.dll
+/Users/lsmith/Documents/C#PlayersGuide/ChocolateEggs/obj/Debug/net6.0/ChocolateEggs.pdb
+/Users/lsmith/Documents/C#PlayersGuide/ChocolateEggs/obj/Debug/net6.0/ChocolateEggs.genruntimeconfig.cache
+/Users/lsmith/Documents/C#PlayersGuide/ChocolateEggs/obj/Debug/net6.0/ref/ChocolateEggs.dll

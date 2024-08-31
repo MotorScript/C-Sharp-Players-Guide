@@ -1,0 +1,15 @@
+/Users/lsmith/Documents/C#PlayersGuide/ChessDefense/bin/Debug/net6.0/ChessDefense
+/Users/lsmith/Documents/C#PlayersGuide/ChessDefense/bin/Debug/net6.0/ChessDefense.deps.json
+/Users/lsmith/Documents/C#PlayersGuide/ChessDefense/bin/Debug/net6.0/ChessDefense.runtimeconfig.json
+/Users/lsmith/Documents/C#PlayersGuide/ChessDefense/bin/Debug/net6.0/ChessDefense.dll
+/Users/lsmith/Documents/C#PlayersGuide/ChessDefense/bin/Debug/net6.0/ChessDefense.pdb
+/Users/lsmith/Documents/C#PlayersGuide/ChessDefense/obj/Debug/net6.0/ChessDefense.csproj.AssemblyReference.cache
+/Users/lsmith/Documents/C#PlayersGuide/ChessDefense/obj/Debug/net6.0/ChessDefense.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lsmith/Documents/C#PlayersGuide/ChessDefense/obj/Debug/net6.0/ChessDefense.AssemblyInfoInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/ChessDefense/obj/Debug/net6.0/ChessDefense.AssemblyInfo.cs
+/Users/lsmith/Documents/C#PlayersGuide/ChessDefense/obj/Debug/net6.0/ChessDefense.csproj.CoreCompileInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/ChessDefense/obj/Debug/net6.0/ChessDefense.dll
+/Users/lsmith/Documents/C#PlayersGuide/ChessDefense/obj/Debug/net6.0/refint/ChessDefense.dll
+/Users/lsmith/Documents/C#PlayersGuide/ChessDefense/obj/Debug/net6.0/ChessDefense.pdb
+/Users/lsmith/Documents/C#PlayersGuide/ChessDefense/obj/Debug/net6.0/ChessDefense.genruntimeconfig.cache
+/Users/lsmith/Documents/C#PlayersGuide/ChessDefense/obj/Debug/net6.0/ref/ChessDefense.dll

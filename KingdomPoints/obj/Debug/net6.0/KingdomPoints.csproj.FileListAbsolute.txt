@@ -1,0 +1,15 @@
+/Users/lsmith/Documents/C#PlayersGuide/KingdomPoints/bin/Debug/net6.0/KingdomPoints
+/Users/lsmith/Documents/C#PlayersGuide/KingdomPoints/bin/Debug/net6.0/KingdomPoints.deps.json
+/Users/lsmith/Documents/C#PlayersGuide/KingdomPoints/bin/Debug/net6.0/KingdomPoints.runtimeconfig.json
+/Users/lsmith/Documents/C#PlayersGuide/KingdomPoints/bin/Debug/net6.0/KingdomPoints.dll
+/Users/lsmith/Documents/C#PlayersGuide/KingdomPoints/bin/Debug/net6.0/KingdomPoints.pdb
+/Users/lsmith/Documents/C#PlayersGuide/KingdomPoints/obj/Debug/net6.0/KingdomPoints.csproj.AssemblyReference.cache
+/Users/lsmith/Documents/C#PlayersGuide/KingdomPoints/obj/Debug/net6.0/KingdomPoints.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lsmith/Documents/C#PlayersGuide/KingdomPoints/obj/Debug/net6.0/KingdomPoints.AssemblyInfoInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/KingdomPoints/obj/Debug/net6.0/KingdomPoints.AssemblyInfo.cs
+/Users/lsmith/Documents/C#PlayersGuide/KingdomPoints/obj/Debug/net6.0/KingdomPoints.csproj.CoreCompileInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/KingdomPoints/obj/Debug/net6.0/KingdomPoints.dll
+/Users/lsmith/Documents/C#PlayersGuide/KingdomPoints/obj/Debug/net6.0/refint/KingdomPoints.dll
+/Users/lsmith/Documents/C#PlayersGuide/KingdomPoints/obj/Debug/net6.0/KingdomPoints.pdb
+/Users/lsmith/Documents/C#PlayersGuide/KingdomPoints/obj/Debug/net6.0/KingdomPoints.genruntimeconfig.cache
+/Users/lsmith/Documents/C#PlayersGuide/KingdomPoints/obj/Debug/net6.0/ref/KingdomPoints.dll

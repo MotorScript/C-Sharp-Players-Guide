@@ -1,0 +1,9 @@
+1. False
+2. byte, short, int, long
+3. False
+4. uint, if higher numbers means numbers greater than zero
+5. float, double, decimal
+6. double
+7. decimal
+8. string
+9. boolean values

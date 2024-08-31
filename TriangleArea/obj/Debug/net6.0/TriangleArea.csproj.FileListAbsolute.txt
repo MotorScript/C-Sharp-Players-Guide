@@ -1,0 +1,15 @@
+/Users/lsmith/Documents/C#PlayersGuide/TriangleArea/bin/Debug/net6.0/TriangleArea
+/Users/lsmith/Documents/C#PlayersGuide/TriangleArea/bin/Debug/net6.0/TriangleArea.deps.json
+/Users/lsmith/Documents/C#PlayersGuide/TriangleArea/bin/Debug/net6.0/TriangleArea.runtimeconfig.json
+/Users/lsmith/Documents/C#PlayersGuide/TriangleArea/bin/Debug/net6.0/TriangleArea.dll
+/Users/lsmith/Documents/C#PlayersGuide/TriangleArea/bin/Debug/net6.0/TriangleArea.pdb
+/Users/lsmith/Documents/C#PlayersGuide/TriangleArea/obj/Debug/net6.0/TriangleArea.csproj.AssemblyReference.cache
+/Users/lsmith/Documents/C#PlayersGuide/TriangleArea/obj/Debug/net6.0/TriangleArea.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lsmith/Documents/C#PlayersGuide/TriangleArea/obj/Debug/net6.0/TriangleArea.AssemblyInfoInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/TriangleArea/obj/Debug/net6.0/TriangleArea.AssemblyInfo.cs
+/Users/lsmith/Documents/C#PlayersGuide/TriangleArea/obj/Debug/net6.0/TriangleArea.csproj.CoreCompileInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/TriangleArea/obj/Debug/net6.0/TriangleArea.dll
+/Users/lsmith/Documents/C#PlayersGuide/TriangleArea/obj/Debug/net6.0/refint/TriangleArea.dll
+/Users/lsmith/Documents/C#PlayersGuide/TriangleArea/obj/Debug/net6.0/TriangleArea.pdb
+/Users/lsmith/Documents/C#PlayersGuide/TriangleArea/obj/Debug/net6.0/TriangleArea.genruntimeconfig.cache
+/Users/lsmith/Documents/C#PlayersGuide/TriangleArea/obj/Debug/net6.0/ref/TriangleArea.dll

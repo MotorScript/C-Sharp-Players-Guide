@@ -1,0 +1,15 @@
+/Users/lsmith/Documents/C#PlayersGuide/ThingNamer3000/bin/Debug/net6.0/ThingNamer3000
+/Users/lsmith/Documents/C#PlayersGuide/ThingNamer3000/bin/Debug/net6.0/ThingNamer3000.deps.json
+/Users/lsmith/Documents/C#PlayersGuide/ThingNamer3000/bin/Debug/net6.0/ThingNamer3000.runtimeconfig.json
+/Users/lsmith/Documents/C#PlayersGuide/ThingNamer3000/bin/Debug/net6.0/ThingNamer3000.dll
+/Users/lsmith/Documents/C#PlayersGuide/ThingNamer3000/bin/Debug/net6.0/ThingNamer3000.pdb
+/Users/lsmith/Documents/C#PlayersGuide/ThingNamer3000/obj/Debug/net6.0/ThingNamer3000.csproj.AssemblyReference.cache
+/Users/lsmith/Documents/C#PlayersGuide/ThingNamer3000/obj/Debug/net6.0/ThingNamer3000.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lsmith/Documents/C#PlayersGuide/ThingNamer3000/obj/Debug/net6.0/ThingNamer3000.AssemblyInfoInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/ThingNamer3000/obj/Debug/net6.0/ThingNamer3000.AssemblyInfo.cs
+/Users/lsmith/Documents/C#PlayersGuide/ThingNamer3000/obj/Debug/net6.0/ThingNamer3000.csproj.CoreCompileInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/ThingNamer3000/obj/Debug/net6.0/ThingNamer3000.dll
+/Users/lsmith/Documents/C#PlayersGuide/ThingNamer3000/obj/Debug/net6.0/refint/ThingNamer3000.dll
+/Users/lsmith/Documents/C#PlayersGuide/ThingNamer3000/obj/Debug/net6.0/ThingNamer3000.pdb
+/Users/lsmith/Documents/C#PlayersGuide/ThingNamer3000/obj/Debug/net6.0/ThingNamer3000.genruntimeconfig.cache
+/Users/lsmith/Documents/C#PlayersGuide/ThingNamer3000/obj/Debug/net6.0/ref/ThingNamer3000.dll
