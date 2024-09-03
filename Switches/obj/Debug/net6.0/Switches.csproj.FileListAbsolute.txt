@@ -1,0 +1,15 @@
+/Users/lsmith/Documents/C#PlayersGuide/Switches/bin/Debug/net6.0/Switches
+/Users/lsmith/Documents/C#PlayersGuide/Switches/bin/Debug/net6.0/Switches.deps.json
+/Users/lsmith/Documents/C#PlayersGuide/Switches/bin/Debug/net6.0/Switches.runtimeconfig.json
+/Users/lsmith/Documents/C#PlayersGuide/Switches/bin/Debug/net6.0/Switches.dll
+/Users/lsmith/Documents/C#PlayersGuide/Switches/bin/Debug/net6.0/Switches.pdb
+/Users/lsmith/Documents/C#PlayersGuide/Switches/obj/Debug/net6.0/Switches.csproj.AssemblyReference.cache
+/Users/lsmith/Documents/C#PlayersGuide/Switches/obj/Debug/net6.0/Switches.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lsmith/Documents/C#PlayersGuide/Switches/obj/Debug/net6.0/Switches.AssemblyInfoInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/Switches/obj/Debug/net6.0/Switches.AssemblyInfo.cs
+/Users/lsmith/Documents/C#PlayersGuide/Switches/obj/Debug/net6.0/Switches.csproj.CoreCompileInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/Switches/obj/Debug/net6.0/Switches.dll
+/Users/lsmith/Documents/C#PlayersGuide/Switches/obj/Debug/net6.0/refint/Switches.dll
+/Users/lsmith/Documents/C#PlayersGuide/Switches/obj/Debug/net6.0/Switches.pdb
+/Users/lsmith/Documents/C#PlayersGuide/Switches/obj/Debug/net6.0/Switches.genruntimeconfig.cache
+/Users/lsmith/Documents/C#PlayersGuide/Switches/obj/Debug/net6.0/ref/Switches.dll

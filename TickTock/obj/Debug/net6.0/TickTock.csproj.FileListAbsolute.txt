@@ -1,0 +1,15 @@
+/Users/lsmith/Documents/C#PlayersGuide/TickTock/bin/Debug/net6.0/TickTock
+/Users/lsmith/Documents/C#PlayersGuide/TickTock/bin/Debug/net6.0/TickTock.deps.json
+/Users/lsmith/Documents/C#PlayersGuide/TickTock/bin/Debug/net6.0/TickTock.runtimeconfig.json
+/Users/lsmith/Documents/C#PlayersGuide/TickTock/bin/Debug/net6.0/TickTock.dll
+/Users/lsmith/Documents/C#PlayersGuide/TickTock/bin/Debug/net6.0/TickTock.pdb
+/Users/lsmith/Documents/C#PlayersGuide/TickTock/obj/Debug/net6.0/TickTock.csproj.AssemblyReference.cache
+/Users/lsmith/Documents/C#PlayersGuide/TickTock/obj/Debug/net6.0/TickTock.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lsmith/Documents/C#PlayersGuide/TickTock/obj/Debug/net6.0/TickTock.AssemblyInfoInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/TickTock/obj/Debug/net6.0/TickTock.AssemblyInfo.cs
+/Users/lsmith/Documents/C#PlayersGuide/TickTock/obj/Debug/net6.0/TickTock.csproj.CoreCompileInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/TickTock/obj/Debug/net6.0/TickTock.dll
+/Users/lsmith/Documents/C#PlayersGuide/TickTock/obj/Debug/net6.0/refint/TickTock.dll
+/Users/lsmith/Documents/C#PlayersGuide/TickTock/obj/Debug/net6.0/TickTock.pdb
+/Users/lsmith/Documents/C#PlayersGuide/TickTock/obj/Debug/net6.0/TickTock.genruntimeconfig.cache
+/Users/lsmith/Documents/C#PlayersGuide/TickTock/obj/Debug/net6.0/ref/TickTock.dll
