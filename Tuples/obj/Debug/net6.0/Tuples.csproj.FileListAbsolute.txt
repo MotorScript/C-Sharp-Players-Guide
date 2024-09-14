@@ -1,0 +1,15 @@
+/Users/lsmith/Documents/C#PlayersGuide/Tuples/bin/Debug/net6.0/Tuples
+/Users/lsmith/Documents/C#PlayersGuide/Tuples/bin/Debug/net6.0/Tuples.deps.json
+/Users/lsmith/Documents/C#PlayersGuide/Tuples/bin/Debug/net6.0/Tuples.runtimeconfig.json
+/Users/lsmith/Documents/C#PlayersGuide/Tuples/bin/Debug/net6.0/Tuples.dll
+/Users/lsmith/Documents/C#PlayersGuide/Tuples/bin/Debug/net6.0/Tuples.pdb
+/Users/lsmith/Documents/C#PlayersGuide/Tuples/obj/Debug/net6.0/Tuples.csproj.AssemblyReference.cache
+/Users/lsmith/Documents/C#PlayersGuide/Tuples/obj/Debug/net6.0/Tuples.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lsmith/Documents/C#PlayersGuide/Tuples/obj/Debug/net6.0/Tuples.AssemblyInfoInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/Tuples/obj/Debug/net6.0/Tuples.AssemblyInfo.cs
+/Users/lsmith/Documents/C#PlayersGuide/Tuples/obj/Debug/net6.0/Tuples.csproj.CoreCompileInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/Tuples/obj/Debug/net6.0/Tuples.dll
+/Users/lsmith/Documents/C#PlayersGuide/Tuples/obj/Debug/net6.0/refint/Tuples.dll
+/Users/lsmith/Documents/C#PlayersGuide/Tuples/obj/Debug/net6.0/Tuples.pdb
+/Users/lsmith/Documents/C#PlayersGuide/Tuples/obj/Debug/net6.0/Tuples.genruntimeconfig.cache
+/Users/lsmith/Documents/C#PlayersGuide/Tuples/obj/Debug/net6.0/ref/Tuples.dll
