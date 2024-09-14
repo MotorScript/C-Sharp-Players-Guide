@@ -1,0 +1,15 @@
+/Users/lsmith/Documents/C#PlayersGuide/MagicCannon/bin/Debug/net6.0/MagicCannon
+/Users/lsmith/Documents/C#PlayersGuide/MagicCannon/bin/Debug/net6.0/MagicCannon.deps.json
+/Users/lsmith/Documents/C#PlayersGuide/MagicCannon/bin/Debug/net6.0/MagicCannon.runtimeconfig.json
+/Users/lsmith/Documents/C#PlayersGuide/MagicCannon/bin/Debug/net6.0/MagicCannon.dll
+/Users/lsmith/Documents/C#PlayersGuide/MagicCannon/bin/Debug/net6.0/MagicCannon.pdb
+/Users/lsmith/Documents/C#PlayersGuide/MagicCannon/obj/Debug/net6.0/MagicCannon.csproj.AssemblyReference.cache
+/Users/lsmith/Documents/C#PlayersGuide/MagicCannon/obj/Debug/net6.0/MagicCannon.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lsmith/Documents/C#PlayersGuide/MagicCannon/obj/Debug/net6.0/MagicCannon.AssemblyInfoInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/MagicCannon/obj/Debug/net6.0/MagicCannon.AssemblyInfo.cs
+/Users/lsmith/Documents/C#PlayersGuide/MagicCannon/obj/Debug/net6.0/MagicCannon.csproj.CoreCompileInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/MagicCannon/obj/Debug/net6.0/MagicCannon.dll
+/Users/lsmith/Documents/C#PlayersGuide/MagicCannon/obj/Debug/net6.0/refint/MagicCannon.dll
+/Users/lsmith/Documents/C#PlayersGuide/MagicCannon/obj/Debug/net6.0/MagicCannon.pdb
+/Users/lsmith/Documents/C#PlayersGuide/MagicCannon/obj/Debug/net6.0/MagicCannon.genruntimeconfig.cache
+/Users/lsmith/Documents/C#PlayersGuide/MagicCannon/obj/Debug/net6.0/ref/MagicCannon.dll

@@ -1,0 +1,15 @@
+/Users/lsmith/Documents/C#PlayersGuide/Recursion/bin/Debug/net6.0/Recursion
+/Users/lsmith/Documents/C#PlayersGuide/Recursion/bin/Debug/net6.0/Recursion.deps.json
+/Users/lsmith/Documents/C#PlayersGuide/Recursion/bin/Debug/net6.0/Recursion.runtimeconfig.json
+/Users/lsmith/Documents/C#PlayersGuide/Recursion/bin/Debug/net6.0/Recursion.dll
+/Users/lsmith/Documents/C#PlayersGuide/Recursion/bin/Debug/net6.0/Recursion.pdb
+/Users/lsmith/Documents/C#PlayersGuide/Recursion/obj/Debug/net6.0/Recursion.csproj.AssemblyReference.cache
+/Users/lsmith/Documents/C#PlayersGuide/Recursion/obj/Debug/net6.0/Recursion.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lsmith/Documents/C#PlayersGuide/Recursion/obj/Debug/net6.0/Recursion.AssemblyInfoInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/Recursion/obj/Debug/net6.0/Recursion.AssemblyInfo.cs
+/Users/lsmith/Documents/C#PlayersGuide/Recursion/obj/Debug/net6.0/Recursion.csproj.CoreCompileInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/Recursion/obj/Debug/net6.0/Recursion.dll
+/Users/lsmith/Documents/C#PlayersGuide/Recursion/obj/Debug/net6.0/refint/Recursion.dll
+/Users/lsmith/Documents/C#PlayersGuide/Recursion/obj/Debug/net6.0/Recursion.pdb
+/Users/lsmith/Documents/C#PlayersGuide/Recursion/obj/Debug/net6.0/Recursion.genruntimeconfig.cache
+/Users/lsmith/Documents/C#PlayersGuide/Recursion/obj/Debug/net6.0/ref/Recursion.dll

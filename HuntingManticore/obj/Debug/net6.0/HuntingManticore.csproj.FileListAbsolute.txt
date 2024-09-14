@@ -1,0 +1,15 @@
+/Users/lsmith/Documents/C#PlayersGuide/HuntingManticore/bin/Debug/net6.0/HuntingManticore
+/Users/lsmith/Documents/C#PlayersGuide/HuntingManticore/bin/Debug/net6.0/HuntingManticore.deps.json
+/Users/lsmith/Documents/C#PlayersGuide/HuntingManticore/bin/Debug/net6.0/HuntingManticore.runtimeconfig.json
+/Users/lsmith/Documents/C#PlayersGuide/HuntingManticore/bin/Debug/net6.0/HuntingManticore.dll
+/Users/lsmith/Documents/C#PlayersGuide/HuntingManticore/bin/Debug/net6.0/HuntingManticore.pdb
+/Users/lsmith/Documents/C#PlayersGuide/HuntingManticore/obj/Debug/net6.0/HuntingManticore.csproj.AssemblyReference.cache
+/Users/lsmith/Documents/C#PlayersGuide/HuntingManticore/obj/Debug/net6.0/HuntingManticore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lsmith/Documents/C#PlayersGuide/HuntingManticore/obj/Debug/net6.0/HuntingManticore.AssemblyInfoInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/HuntingManticore/obj/Debug/net6.0/HuntingManticore.AssemblyInfo.cs
+/Users/lsmith/Documents/C#PlayersGuide/HuntingManticore/obj/Debug/net6.0/HuntingManticore.csproj.CoreCompileInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/HuntingManticore/obj/Debug/net6.0/HuntingManticore.dll
+/Users/lsmith/Documents/C#PlayersGuide/HuntingManticore/obj/Debug/net6.0/refint/HuntingManticore.dll
+/Users/lsmith/Documents/C#PlayersGuide/HuntingManticore/obj/Debug/net6.0/HuntingManticore.pdb
+/Users/lsmith/Documents/C#PlayersGuide/HuntingManticore/obj/Debug/net6.0/HuntingManticore.genruntimeconfig.cache
+/Users/lsmith/Documents/C#PlayersGuide/HuntingManticore/obj/Debug/net6.0/ref/HuntingManticore.dll
