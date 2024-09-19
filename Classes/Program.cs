@@ -78,14 +78,14 @@ FletchingType fletching = fletchingChoice switch
 
 Arrow userArrow = new Arrow(arrowHead, fletching, shaftLength);
 
-Console.WriteLine($"The total cost of your arrow is {userArrow.GetCost()} gold");
+Console.WriteLine($"The total cost of your arrow is {userArrow.GetCost()} gold, and the shaft is {userArrow.GetShaftLength()} inches long");
 
 
 class Arrow
 {
-    public ArrowHeadMaterial _arrowHead;
-    public FletchingType _fletching;
-    public int _shaftLength;
+    private ArrowHeadMaterial _arrowHead;
+    private FletchingType _fletching;
+    private int _shaftLength;
 
     public Arrow(ArrowHeadMaterial arrowHead, FletchingType fletching, int shaftLength)
     {
@@ -94,6 +94,18 @@ class Arrow
         _shaftLength = shaftLength;
     }
 
+    public string GetArrowHead()
+    {
+        return Convert.ToString(_arrowHead);
+    }
+    public string GetFletching()
+    {
+        return Convert.ToString(_fletching);
+    }
+    public string GetShaftLength()
+    {
+        return Convert.ToString(_shaftLength);
+    }
     public float GetCost()
     {
         int steelPrice = 10;
