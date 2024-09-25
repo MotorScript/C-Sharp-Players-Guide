@@ -6,106 +6,156 @@ int GetUserInput(string prompt)
     return Convert.ToInt32(Console.ReadLine());
 }
 
-int arrowHeadChoice;
+void PrintCost(Arrow arrow)
+{
+    Console.WriteLine($"The total cost of your arrow is {arrow.GetCost()} gold, and the shaft is {arrow.ShaftLength} inches long");
+}
+
+Arrow userArrow;
+int userArrowChoice;
 do
 {
-    arrowHeadChoice = GetUserInput(
-        @"Which type of arrowhead would you like? 
+    userArrowChoice = GetUserInput(
+        @"
+    Please Choose one of the following options:
+
+    1 - Beginner's Arrow
+    2 - Marksman Arrow
+    3 - Elite Arrow
+    4 - Custom Arrow
+
+");
+    switch (userArrowChoice)
+    {
+        case 1:
+            userArrow = Arrow.BeginnerArrow();
+            PrintCost(userArrow);
+            break;
+        case 2:
+            userArrow = Arrow.MarksmanArrow();
+            PrintCost(userArrow);
+            break;
+        case 3:
+            userArrow = Arrow.EliteArrow();
+            PrintCost(userArrow);
+            break;
+        case 4:
+            Console.Clear();
+            userArrow = CreateCustomArrow();
+            PrintCost(userArrow);
+            break;
+        default:
+            Console.WriteLine("Sorry, that did not work. Please enter a valid number");
+            Console.Clear();
+            break;
+    }
+
+} while (userArrowChoice != 1 && userArrowChoice != 2 && userArrowChoice != 3 && userArrowChoice != 4);
+
+Arrow CreateCustomArrow()
+{
+    int arrowHeadChoice;
+    do
+    {
+        arrowHeadChoice = GetUserInput(
+            @"Which type of arrowhead would you like? 
 
             1 - Steel
             2 - Wood
             3 - Obsidian
 ");
-    if (arrowHeadChoice == 1 || arrowHeadChoice == 2 || arrowHeadChoice == 3)
-    {
-        break;
-    }
-    else
-    {
-        Console.WriteLine("Please choose a valid option!");
-    }
-} while (arrowHeadChoice != 1 && arrowHeadChoice != 2 && arrowHeadChoice != 3);
+        if (arrowHeadChoice == 1 || arrowHeadChoice == 2 || arrowHeadChoice == 3)
+        {
+            break;
+        }
+        else
+        {
+            Console.WriteLine("Please choose a valid option!");
+        }
+    } while (arrowHeadChoice != 1 && arrowHeadChoice != 2 && arrowHeadChoice != 3);
 
-int fletchingChoice;
-do
-{
-    fletchingChoice = GetUserInput(
-        @"Which type of fletching would you like? 
+    int fletchingChoice;
+    do
+    {
+        fletchingChoice = GetUserInput(
+            @"Which type of fletching would you like? 
 
             1 - Plastic
             2 - Turkey
             3 - Goose
 ");
 
-    if (fletchingChoice == 1 || fletchingChoice == 2 || fletchingChoice == 3)
+        if (fletchingChoice == 1 || fletchingChoice == 2 || fletchingChoice == 3)
+        {
+            break;
+        }
+        else
+        {
+            Console.WriteLine("Please choose a valid option!");
+        }
+    } while (fletchingChoice != 1 && fletchingChoice != 2 && fletchingChoice != 3);
+
+    int shaftLength;
+    do
     {
-        break;
-    }
-    else
+        shaftLength = GetUserInput(@"How long would you like the shaft to be? (6-35) ");
+
+        if (shaftLength < 6 || shaftLength > 35)
+        {
+            Console.WriteLine("Please choose a valid option!");
+        }
+        else
+        {
+            break;
+        }
+    } while (shaftLength < 6 || shaftLength > 35);
+
+    ArrowHeadMaterial arrowHead = arrowHeadChoice switch
     {
-        Console.WriteLine("Please choose a valid option!");
-    }
-} while (fletchingChoice != 1 && fletchingChoice != 2 && fletchingChoice != 3);
+        1 => ArrowHeadMaterial.Steel,
+        2 => ArrowHeadMaterial.Wood,
+        3 => ArrowHeadMaterial.Obsidian
+    };
 
-int shaftLength;
-do
-{
-    shaftLength = GetUserInput(@"How long would you like the shaft to be? (6-35) ");
-
-    if (shaftLength < 6 || shaftLength > 35)
+    FletchingType fletching = fletchingChoice switch
     {
-        Console.WriteLine("Please choose a valid option!");
-    }
-    else
-    {
-        break;
-    }
-} while (shaftLength < 6 || shaftLength > 35);
+        1 => FletchingType.Plastic,
+        2 => FletchingType.Turkey,
+        3 => FletchingType.Goose
+    };
+    Arrow customUserArrow = new Arrow(arrowHead, fletching, shaftLength);
+    return customUserArrow;
+}
 
-ArrowHeadMaterial arrowHead = arrowHeadChoice switch
-{
-    1 => ArrowHeadMaterial.Steel,
-    2 => ArrowHeadMaterial.Wood,
-    3 => ArrowHeadMaterial.Obsidian
-};
-
-FletchingType fletching = fletchingChoice switch
-{
-    1 => FletchingType.Plastic,
-    2 => FletchingType.Turkey,
-    3 => FletchingType.Goose
-};
-
-Arrow userArrow = new Arrow(arrowHead, fletching, shaftLength);
-
-Console.WriteLine($"The total cost of your arrow is {userArrow.GetCost()} gold, and the shaft is {userArrow.GetShaftLength()} inches long");
 
 
 class Arrow
 {
-    private ArrowHeadMaterial _arrowHead;
-    private FletchingType _fletching;
-    private int _shaftLength;
+    public ArrowHeadMaterial ArrowHead { get; init; }
+    public FletchingType Fletching { get; init; }
+    public int ShaftLength { get; init; }
 
     public Arrow(ArrowHeadMaterial arrowHead, FletchingType fletching, int shaftLength)
     {
-        _arrowHead = arrowHead;
-        _fletching = fletching;
-        _shaftLength = shaftLength;
+        ArrowHead = arrowHead;
+        Fletching = fletching;
+        ShaftLength = shaftLength;
     }
 
-    public string GetArrowHead()
+    public static Arrow EliteArrow()
     {
-        return Convert.ToString(_arrowHead);
+        return new Arrow(ArrowHeadMaterial.Steel, FletchingType.Plastic, 35);
     }
-    public string GetFletching()
+    public static Arrow BeginnerArrow()
     {
-        return Convert.ToString(_fletching);
+        return new Arrow(ArrowHeadMaterial.Wood, FletchingType.Goose, 28);
     }
-    public string GetShaftLength()
+    public static Arrow MarksmanArrow()
     {
-        return Convert.ToString(_shaftLength);
+        return new Arrow(ArrowHeadMaterial.Steel, FletchingType.Goose, 30);
     }
+
+
     public float GetCost()
     {
         int steelPrice = 10;
@@ -117,33 +167,33 @@ class Arrow
         float shaftPrice = 0.5F;
         float total = 0F;
 
-        if (_arrowHead == ArrowHeadMaterial.Steel)
+        if (ArrowHead == ArrowHeadMaterial.Steel)
         {
             total += steelPrice;
         }
-        else if (_arrowHead == ArrowHeadMaterial.Wood)
+        else if (ArrowHead == ArrowHeadMaterial.Wood)
         {
             total += woodPrice;
         }
-        else if (_arrowHead == ArrowHeadMaterial.Obsidian)
+        else if (ArrowHead == ArrowHeadMaterial.Obsidian)
         {
             total += obsidianPrice;
         }
 
-        if (_fletching == FletchingType.Plastic)
+        if (Fletching == FletchingType.Plastic)
         {
             total += plasticPrice;
         }
-        else if (_fletching == FletchingType.Turkey)
+        else if (Fletching == FletchingType.Turkey)
         {
             total += turkeyPrice;
         }
-        else if (_fletching == FletchingType.Goose)
+        else if (Fletching == FletchingType.Goose)
         {
             total += goosePrice;
         }
 
-        total += (shaftPrice * _shaftLength);
+        total += (shaftPrice * ShaftLength);
 
         return total;
     }
