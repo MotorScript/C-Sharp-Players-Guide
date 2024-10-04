@@ -1,0 +1,15 @@
+/Users/lsmith/Documents/C#PlayersGuide/TicTacToe/bin/Debug/net6.0/TicTacToe
+/Users/lsmith/Documents/C#PlayersGuide/TicTacToe/bin/Debug/net6.0/TicTacToe.deps.json
+/Users/lsmith/Documents/C#PlayersGuide/TicTacToe/bin/Debug/net6.0/TicTacToe.runtimeconfig.json
+/Users/lsmith/Documents/C#PlayersGuide/TicTacToe/bin/Debug/net6.0/TicTacToe.dll
+/Users/lsmith/Documents/C#PlayersGuide/TicTacToe/bin/Debug/net6.0/TicTacToe.pdb
+/Users/lsmith/Documents/C#PlayersGuide/TicTacToe/obj/Debug/net6.0/TicTacToe.csproj.AssemblyReference.cache
+/Users/lsmith/Documents/C#PlayersGuide/TicTacToe/obj/Debug/net6.0/TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lsmith/Documents/C#PlayersGuide/TicTacToe/obj/Debug/net6.0/TicTacToe.AssemblyInfoInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/TicTacToe/obj/Debug/net6.0/TicTacToe.AssemblyInfo.cs
+/Users/lsmith/Documents/C#PlayersGuide/TicTacToe/obj/Debug/net6.0/TicTacToe.csproj.CoreCompileInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/TicTacToe/obj/Debug/net6.0/TicTacToe.dll
+/Users/lsmith/Documents/C#PlayersGuide/TicTacToe/obj/Debug/net6.0/refint/TicTacToe.dll
+/Users/lsmith/Documents/C#PlayersGuide/TicTacToe/obj/Debug/net6.0/TicTacToe.pdb
+/Users/lsmith/Documents/C#PlayersGuide/TicTacToe/obj/Debug/net6.0/TicTacToe.genruntimeconfig.cache
+/Users/lsmith/Documents/C#PlayersGuide/TicTacToe/obj/Debug/net6.0/ref/TicTacToe.dll
