@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lsmith/Documents/C#PlayersGuide/Part2/TheLockedDoor/TheLockedDoor.csproj",
-      "projectName": "TheLockedDoor",
-      "projectPath": "/Users/lsmith/Documents/C#PlayersGuide/Part2/TheLockedDoor/TheLockedDoor.csproj",
+      "projectUniqueName": "/Users/lsmith/Documents/C#PlayersGuide/PasswordValidator/PasswordValidator/PasswordValidator.csproj",
+      "projectName": "PasswordValidator",
+      "projectPath": "/Users/lsmith/Documents/C#PlayersGuide/PasswordValidator/PasswordValidator/PasswordValidator.csproj",
       "packagesPath": "/Users/lsmith/.nuget/packages/",
-      "outputPath": "/Users/lsmith/Documents/C#PlayersGuide/Part2/TheLockedDoor/obj/",
+      "outputPath": "/Users/lsmith/Documents/C#PlayersGuide/PasswordValidator/PasswordValidator/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
