@@ -99,9 +99,7 @@ class Board
 
 class Player
 {
-    private int[] playerChoice = new int[3];
     private bool _isX;
-    public bool HasWon = false;
     public Player(bool isX)
     {
         _isX = isX;
