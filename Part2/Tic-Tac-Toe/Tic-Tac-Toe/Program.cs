@@ -1,9 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 // TODO 
-// [] Create win cases for diagonal wins
+// [*] Create win cases for diagonal wins
 // [] Create case for draws
-// [] Disallow users to go in a spot that has already been played in
+// [*] Disallow users to go in a spot that has already been played in
 
 Board gameBoard = new Board();
 
@@ -72,30 +72,45 @@ class Board
            ---+---+---
             {characters[2,0]} | {characters[2,1]} | {characters[2,2]}");
     }
-    public void UpdateMatrix(int[] coordinates)
+    public void UpdateMatrix(int[] coordinates, int currentPlayerNumber)
     {
         int row = coordinates[0];
         int col = coordinates[1];
 
-        boardMatrix[row, col] = coordinates[2];
+        boardMatrix[row, col] = currentPlayerNumber;
     }
 
     public bool GameWon()
     {
         int[,] matrix = boardMatrix;
 
+        bool rowWin = false;
+        bool colWin = false;
+        
         for (int i = 0; i < 3; i++)
         {
-            bool rowWin = (matrix[i, 0] == matrix[i, 1] && matrix[i, 0] == matrix[i, 2] && matrix[i, 0] != 0);
-            bool colWin = (matrix[0, i] == matrix[1, i] && matrix[0, i] == matrix[2, i] && matrix[0, i] != 0);
-
-            if (colWin || rowWin) return true;
+            rowWin = (matrix[i, 0] == matrix[i, 1] && matrix[i, 0] == matrix[i, 2] && matrix[i, 0] != 0);
+            colWin = (matrix[0, i] == matrix[1, i] && matrix[0, i] == matrix[2, i] && matrix[0, i] != 0);
+            
+            if (colWin || rowWin) break;
         }
+        
+        bool daigWin = (
+            (matrix[0, 0] == matrix[1, 1] && matrix[0, 0] == matrix[2, 2] && matrix[0, 0] != 0) ||
+            (matrix[0, 2] == matrix[1, 1] && matrix[0, 2] == matrix[2, 0] && matrix[0, 2] != 0));
+        
+        if (colWin || rowWin || daigWin) return true;
 
         return false;
 
     }
+
+    public int GetCoordinate(int col, int row)
+    {
+        return boardMatrix[col, row];
+    }
 }
+
 
 class Player
 {
@@ -106,60 +121,77 @@ class Player
     }
     public void TakeTurn(Board gameBoard)
     {
-        int[] coordinates = null;
 
-        do
+        int[] GetInput()
         {
-            Console.Write("What square do you want to play in? ");
-            int position = Convert.ToInt32(Console.ReadLine());
-            switch (position)
+            int[] coordinates = null;
+
+            do
             {
-                case 9:
-                    coordinates = new int[2] { 0, 2 };
-                    break;
-                case 8:
-                    coordinates = new int[2] { 0, 1 };
-                    break;
-                case 7:
-                    coordinates = new int[2] { 0, 0 };
-                    break;
-                case 6:
-                    coordinates = new int[2] { 1, 2 };
-                    break;
-                case 5:
-                    coordinates = new int[2] { 1, 1 };
-                    break;
-                case 4:
-                    coordinates = new int[2] { 1, 0 };
-                    break;
-                case 3:
-                    coordinates = new int[2] { 2, 2 };
-                    break;
-                case 2:
-                    coordinates = new int[2] { 2, 1 };
-                    break;
-                case 1:
-                    coordinates = new int[2] { 2, 0 };
-                    break;
-                default:
-                    Console.WriteLine("\nYou must choose an valid number (1-9)\n");
-                    break;
-            }
-        } while (coordinates == null);
+                Console.Write("What square do you want to play in? ");
+                int position = Convert.ToInt32(Console.ReadLine());
+                switch (position)
+                {
+                    case 9:
+                        coordinates = new int[2] { 0, 2 };
+                        break;
+                    case 8:
+                        coordinates = new int[2] { 0, 1 };
+                        break;
+                    case 7:
+                        coordinates = new int[2] { 0, 0 };
+                        break;
+                    case 6:
+                        coordinates = new int[2] { 1, 2 };
+                        break;
+                    case 5:
+                        coordinates = new int[2] { 1, 1 };
+                        break;
+                    case 4:
+                        coordinates = new int[2] { 1, 0 };
+                        break;
+                    case 3:
+                        coordinates = new int[2] { 2, 2 };
+                        break;
+                    case 2:
+                        coordinates = new int[2] { 2, 1 };
+                        break;
+                    case 1:
+                        coordinates = new int[2] { 2, 0 };
+                        break;
+                    default:
+                        Console.WriteLine("\nYou must choose an valid number (1-9)\n");
+                        break;
+                }
+            } while (coordinates == null);
 
-        int[] newCoordinates;
-        
-        if (_isX)
-        {
-            newCoordinates = new int[] { coordinates[0], coordinates[1], 1 };
-            gameBoard.UpdateMatrix(newCoordinates);
+            return coordinates;
         }
-        else
+
+        bool validChoice = false;
+        while (!validChoice)
         {
-            newCoordinates = new int[] { coordinates[0], coordinates[1], 2 };
-            gameBoard.UpdateMatrix(newCoordinates);
-        }
+            int[] coordinates = GetInput();
+            if (gameBoard.GetCoordinate(coordinates[0], coordinates[1]) != 0)
+            {
+                Console.WriteLine("You chose a spot that is already taken. Choose another spot. \n");
+            }
+            else
+            {
+                validChoice = true;
+                
+                int currentPlayerNum;
         
+                if (_isX)
+                {
+                    currentPlayerNum = 1;
+                }
+                else
+                {
+                    currentPlayerNum = 2;
+                }
+                gameBoard.UpdateMatrix(coordinates, currentPlayerNum);
+            }
+        }
     }
-    
 }
