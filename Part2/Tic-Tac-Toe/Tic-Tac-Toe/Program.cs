@@ -2,8 +2,9 @@
 
 // TODO 
 // [*] Create win cases for diagonal wins
-// [] Create case for draws
+// [*] Create case for draws
 // [*] Disallow users to go in a spot that has already been played in
+// [*] State which player won the game
 
 Board gameBoard = new Board();
 
@@ -16,20 +17,37 @@ do
     Console.WriteLine("\nIt is X's turn\n");
     gameBoard.DrawBoard();
     xPlayer.TakeTurn(gameBoard);
-    gameBoard.DrawBoard();
-    if (!gameBoard.GameWon())
+    // gameBoard.DrawBoard();
+    if (gameBoard.GameWon()) xPlayer.HasWon = true;
+    if (!gameBoard.GameWon() && !gameBoard.GameDrawn())
     {
         Console.Clear();
         Console.WriteLine("\nIt is O's turn\n");
         gameBoard.DrawBoard();
         oPlayer.TakeTurn(gameBoard);
-        gameBoard.DrawBoard();
+        if (gameBoard.GameWon()) oPlayer.HasWon = true;
     }
-} while (!gameBoard.GameWon());
+} while (!gameBoard.GameWon() && !gameBoard.GameDrawn());
 
 if (gameBoard.GameWon())
 {
-    Console.WriteLine("Someone won!");
+    if (xPlayer.HasWon)
+    {
+        Console.Clear();
+        Console.WriteLine("X has won the game!");
+        gameBoard.DrawBoard();
+    }
+    else if (oPlayer.HasWon)
+    {
+        Console.Clear();
+        Console.WriteLine("O has won the game!");
+        gameBoard.DrawBoard();
+    }
+}
+
+if (gameBoard.GameDrawn())
+{
+    Console.WriteLine("\nThe game is a draw!");
 }
 class Board
 {
@@ -83,7 +101,6 @@ class Board
     public bool GameWon()
     {
         int[,] matrix = boardMatrix;
-
         bool rowWin = false;
         bool colWin = false;
         
@@ -105,6 +122,33 @@ class Board
 
     }
 
+    public bool GameDrawn()
+    {
+        if (!GameWon())
+        {
+            int[,] matrix = boardMatrix;
+
+            for (int i = 0; i < 3; i++)
+            {
+                for (int x = 0; x < 3; x++)
+                {
+                    if (matrix[i, x] != 0)
+                    {
+                        continue;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+            }
+
+            return true;
+        }
+
+        return false;
+    }
+
     public int GetCoordinate(int col, int row)
     {
         return boardMatrix[col, row];
@@ -115,6 +159,7 @@ class Board
 class Player
 {
     private bool _isX;
+    public bool HasWon { get; set; } = false;
     public Player(bool isX)
     {
         _isX = isX;
