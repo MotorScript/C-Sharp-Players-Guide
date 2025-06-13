@@ -1,0 +1,15 @@
+/Users/lsmith/Documents/C#PlayersGuide/Part2/PackingInventory/PackingInventory/bin/Debug/net6.0/PackingInventory
+/Users/lsmith/Documents/C#PlayersGuide/Part2/PackingInventory/PackingInventory/bin/Debug/net6.0/PackingInventory.deps.json
+/Users/lsmith/Documents/C#PlayersGuide/Part2/PackingInventory/PackingInventory/bin/Debug/net6.0/PackingInventory.runtimeconfig.json
+/Users/lsmith/Documents/C#PlayersGuide/Part2/PackingInventory/PackingInventory/bin/Debug/net6.0/PackingInventory.dll
+/Users/lsmith/Documents/C#PlayersGuide/Part2/PackingInventory/PackingInventory/bin/Debug/net6.0/PackingInventory.pdb
+/Users/lsmith/Documents/C#PlayersGuide/Part2/PackingInventory/PackingInventory/obj/Debug/net6.0/PackingInventory.csproj.AssemblyReference.cache
+/Users/lsmith/Documents/C#PlayersGuide/Part2/PackingInventory/PackingInventory/obj/Debug/net6.0/PackingInventory.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lsmith/Documents/C#PlayersGuide/Part2/PackingInventory/PackingInventory/obj/Debug/net6.0/PackingInventory.AssemblyInfoInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/Part2/PackingInventory/PackingInventory/obj/Debug/net6.0/PackingInventory.AssemblyInfo.cs
+/Users/lsmith/Documents/C#PlayersGuide/Part2/PackingInventory/PackingInventory/obj/Debug/net6.0/PackingInventory.csproj.CoreCompileInputs.cache
+/Users/lsmith/Documents/C#PlayersGuide/Part2/PackingInventory/PackingInventory/obj/Debug/net6.0/PackingInventory.dll
+/Users/lsmith/Documents/C#PlayersGuide/Part2/PackingInventory/PackingInventory/obj/Debug/net6.0/refint/PackingInventory.dll
+/Users/lsmith/Documents/C#PlayersGuide/Part2/PackingInventory/PackingInventory/obj/Debug/net6.0/PackingInventory.pdb
+/Users/lsmith/Documents/C#PlayersGuide/Part2/PackingInventory/PackingInventory/obj/Debug/net6.0/PackingInventory.genruntimeconfig.cache
+/Users/lsmith/Documents/C#PlayersGuide/Part2/PackingInventory/PackingInventory/obj/Debug/net6.0/ref/PackingInventory.dll
